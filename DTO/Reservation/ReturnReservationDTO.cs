@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReservationLinKtic.DTO.Reservation
+namespace ReservationArquitectureLayerUDEC.DTO.Reservation
 {
     public class ReturnReservationDTO
     {

@@ -1,15 +1,15 @@
-﻿using ReservationLinKtic.Domain.Reservations;
-using ReservationLinKtic.DTO.Generics;
-using ReservationLinKtic.DTO.Reservation;
-using ReservationLinKtic.Infrastructure;
-using ReservationLinKtic.Infrastructure.Contracts.IReservations;
-using ReservationLinKtic.LogicServices.Contracts.IReservations;
+﻿using ReservationArquitectureLayerUDEC.Domain.Reservations;
+using ReservationArquitectureLayerUDEC.DTO.Generics;
+using ReservationArquitectureLayerUDEC.DTO.Reservation;
+using ReservationArquitectureLayerUDEC.Infrastructure;
+using ReservationArquitectureLayerUDEC.Infrastructure.Contracts.IReservations;
+using ReservationArquitectureLayerUDEC.LogicServices.Contracts.IReservations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace ReservationLinKtic.LogicServices.Reservations
+namespace ReservationArquitectureLayerUDEC.LogicServices.Reservations
 {
     public class Reservations : IReservations
     {

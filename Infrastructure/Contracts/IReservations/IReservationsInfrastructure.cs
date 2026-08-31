@@ -1,8 +1,8 @@
-﻿using ReservationLinKtic.Domain.Reservations;
+﻿using ReservationArquitectureLayerUDEC.Domain.Reservations;
 using System;
 using System.Linq;
 
-namespace ReservationLinKtic.Infrastructure.Contracts.IReservations
+namespace ReservationArquitectureLayerUDEC.Infrastructure.Contracts.IReservations
 {
     public interface IReservationsInfrastructure
     {

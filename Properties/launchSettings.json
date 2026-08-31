@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ReservationLinKtic": {
+    "ReservationArquitectureLayerUDEC": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

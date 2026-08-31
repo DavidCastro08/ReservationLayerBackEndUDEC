@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace ReservationLinKtic.Infrastructure
+namespace ReservationArquitectureLayerUDEC.Infrastructure
 {
     public partial class Reserva
     {

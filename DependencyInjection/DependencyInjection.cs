@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ReservationLinKtic.Infrastructure;
-using ReservationLinKtic.Infrastructure.Contracts.IReservations;
-using ReservationLinKtic.Infrastructure.Reservations;
-using ReservationLinKtic.LogicServices;
-using ReservationLinKtic.LogicServices.Contracts.IReservations;
-using ReservationLinKtic.LogicServices.Reservations;
+using ReservationArquitectureLayerUDEC.Infrastructure;
+using ReservationArquitectureLayerUDEC.Infrastructure.Contracts.IReservations;
+using ReservationArquitectureLayerUDEC.Infrastructure.Reservations;
+using ReservationArquitectureLayerUDEC.LogicServices;
+using ReservationArquitectureLayerUDEC.LogicServices.Contracts.IReservations;
+using ReservationArquitectureLayerUDEC.LogicServices.Reservations;
 using System;
 
-namespace ReservationLinKtic.DependencyInjection
+namespace ReservationArquitectureLayerUDEC.DependencyInjection
 {
     public class DependencyInjection
     {
@@ -27,13 +27,13 @@ namespace ReservationLinKtic.DependencyInjection
         public static void RegisterProfile(IServiceCollection services, IConfiguration configuration)
         {
 
-            services.AddDbContext<ReservationLinkTicContext>(options =>
+            services.AddDbContext<ReservationArquitectureLayerUDECContext>(options =>
             {
                 IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile(_DBSETTING)
                 .Build();
-                string connectionString = "Server=LAPTOP-BFQK93ER;Database=ReservationLinkTic;Trusted_Connection=True;";
+                string connectionString = "Server=LAPTOP-BFQK93ER;Database=ReservationArquitectureLayerUDEC;Trusted_Connection=True;";
                 options.UseSqlServer(connectionString);
             });
 

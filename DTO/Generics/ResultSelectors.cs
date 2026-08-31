@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReservationLinKtic.DTO.Generics
+namespace ReservationArquitectureLayerUDEC.DTO.Generics
 {
     public class ResultSelectors
     {

@@ -1,10 +1,10 @@
-﻿using ReservationLinKtic.Domain.Reservations;
-using ReservationLinKtic.DTO.Generics;
-using ReservationLinKtic.DTO.Reservation;
+﻿using ReservationArquitectureLayerUDEC.Domain.Reservations;
+using ReservationArquitectureLayerUDEC.DTO.Generics;
+using ReservationArquitectureLayerUDEC.DTO.Reservation;
 using System;
 using System.Collections.Generic;
 
-namespace ReservationLinKtic.LogicServices.Contracts.IReservations
+namespace ReservationArquitectureLayerUDEC.LogicServices.Contracts.IReservations
 {
     public interface IReservations
     {

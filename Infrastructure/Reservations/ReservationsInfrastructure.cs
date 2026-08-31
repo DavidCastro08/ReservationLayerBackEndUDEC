@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReservationLinKtic.Domain.Reservations;
-using ReservationLinKtic.Infrastructure.Contracts.IReservations;
+using ReservationArquitectureLayerUDEC.Domain.Reservations;
+using ReservationArquitectureLayerUDEC.Infrastructure.Contracts.IReservations;
 using System;
 using System.Linq;
 
-namespace ReservationLinKtic.Infrastructure.Reservations
+namespace ReservationArquitectureLayerUDEC.Infrastructure.Reservations
 {
     public class ReservationsInfrastructure: IReservationsInfrastructure
     {
         #region Fileds
-        private readonly ReservationLinkTicContext Context;
+        private readonly ReservationArquitectureLayerUDECContext Context;
         #endregion Fields
 
         #region Constants
@@ -17,7 +17,7 @@ namespace ReservationLinKtic.Infrastructure.Reservations
         #endregion Constants
 
         #region Builder
-        public ReservationsInfrastructure(ReservationLinkTicContext _Context) : base()
+        public ReservationsInfrastructure(ReservationArquitectureLayerUDECContext _Context) : base()
         {
             Context = _Context;
         }

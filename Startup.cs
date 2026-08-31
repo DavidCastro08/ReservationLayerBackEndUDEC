@@ -1,4 +1,4 @@
-using ReservationLinKtic.DependencyInjection;
+using ReservationArquitectureLayerUDEC.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ReservationLinKtic
+namespace ReservationArquitectureLayerUDEC
 {
     public class Startup
     {
@@ -31,7 +31,7 @@ namespace ReservationLinKtic
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReservationLinKtic", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReservationArquitectureLayerUDEC", Version = "v1" });
             });
             DependencyInjection.DependencyInjection.RegisterProfile(services, Configuration);
 
@@ -64,7 +64,7 @@ namespace ReservationLinKtic
                 //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PROJECTPERSONAL v1"));
             }
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReservationLinKtic v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReservationArquitectureLayerUDEC v1"));
 
             app.UseHttpsRedirection();
 

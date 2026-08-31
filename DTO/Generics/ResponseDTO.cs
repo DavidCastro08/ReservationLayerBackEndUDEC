@@ -1,4 +1,4 @@
-﻿namespace ReservationLinKtic.DTO.Generics
+﻿namespace ReservationArquitectureLayerUDEC.DTO.Generics
 {
     public class ResponseDTO
     {

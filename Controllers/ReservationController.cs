@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ReservationLinKtic.Domain.Reservations;
-using ReservationLinKtic.DTO.Generics;
-using ReservationLinKtic.DTO.Reservation;
-using ReservationLinKtic.LogicServices.Contracts.IReservations;
+using ReservationArquitectureLayerUDEC.Domain.Reservations;
+using ReservationArquitectureLayerUDEC.DTO.Generics;
+using ReservationArquitectureLayerUDEC.DTO.Reservation;
+using ReservationArquitectureLayerUDEC.LogicServices.Contracts.IReservations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ReservationLinKtic.Controllers
+namespace ReservationArquitectureLayerUDEC.Controllers
 {
     [ApiController]
     [Route("[controller]")]
