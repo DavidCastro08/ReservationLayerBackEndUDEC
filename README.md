@@ -91,11 +91,3 @@ Ejemplo en `appsettings.json`:
 ## Notas de diseño
 - Separación clara por capas: Controller -> Service (logic) -> Infrastructure (EF Core).
 - Se usan expresiones lambda para proyecciones (mappers) en la capa de lógica.
-
-## Siguiente paso
-Puedo:
-- Actualizar el proyecto para mover la connection string a `appsettings.json` y adaptar `DependencyInjection` y `DbContext`.
-- Añadir validaciones básicas a DTOs.
-- Añadir hashing de contraseñas y proteger `SearchUser`.
-
-Si deseas que cree alguno de esos cambios ahora, indícamelo y lo implemento.
