@@ -33,7 +33,7 @@ namespace ReservationArquitectureLayerUDEC.DependencyInjection
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile(_DBSETTING)
                 .Build();
-                string connectionString = "Server=LAPTOP-BFQK93ER;Database=ReservationArquitectureLayerUDEC;Trusted_Connection=True;";
+                string connectionString = "Server=LAPTOP-BFQK93ER;Database=ReservationLinkTic;Trusted_Connection=True;";
                 options.UseSqlServer(connectionString);
             });
 
